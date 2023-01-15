@@ -9,7 +9,7 @@
       copy:
        src: /var/lib/jenkins/workspace/ansible_java01/target/hello-world-0.0.1-SNAPSHOT.war
        dest: /opt/tomcat/webapps
-       owner: tomcat
+       owner: tomcat.
        group: tomcat
       notify: restart tomcat
    handlers:
